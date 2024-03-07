@@ -1,0 +1,87 @@
+body {
+  padding: 0px;
+}
+
+#selectorHijo p {
+  color: red;
+}
+
+/* la > agarra los p dentro del bloque article*/
+#selectorHijoDirecto article > p {
+  color: aqua;
+}
+
+#selectorHermanoGeneral article span ~ button {
+  background-color: burlywood;
+  color: aliceblue;
+}
+
+#selectorHermanoSubyacente article h3 + h4 {
+  text-decoration: underline;
+  font-size: 20px;
+  color: orange;
+}
+
+/*atributo
+a[href="https://github.com/"]
+{
+  font-size: 50px;
+  color: green;
+}
+*/
+
+input[type="text"] {
+  padding: 20px;
+}
+
+
+
+
+/*segundo html*/
+
+.buttonHover {
+  background-color: #4668a8;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+.buttonHover:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid #4668a8;
+}
+
+.imagen{
+  width: 100px;
+}
+.imagen:hover{
+  filter: sepia(0.5);
+}
+
+#visitedLinks a:visited {
+  color: red;
+}
+
+#visitedLinks a:active{
+  color: green;
+}
+
+#firstChild .caja{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+}
+
+#firstChild div.caja:first-child{
+  background-color: purple;
+}
+
+#firstChild div.caja:last-child{
+  background-color: gray;
+}
+
+#firstChild div.caja:nth-last-child(4){
+  background-color: aqua;
+}
