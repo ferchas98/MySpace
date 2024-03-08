@@ -1,0 +1,97 @@
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.relativa{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    background-color: brown;
+}
+
+.fixed{
+    position: fixed;
+    top: 300px;
+    bottom: 0;
+    left: 230px;
+    right: 0;
+    background-color: yellow;
+    color: black;
+    z-index: 1;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 350px;
+    right: 0;
+}
+.padreRelativo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+
+/* segundo html*/
+.buttonHover {
+    background-color: #4668a8;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all linear 1s;
+  }
+  .buttonHover:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid #4668a8;
+  }
+
+  .animaciones .caja{
+    animation: cambiar-color 2s infinite alternate;
+  }
+
+  .animaciones2 .caja{
+    animation: mover-caja 2s infinite alternate-reverse;
+  }
+
+  @keyframes cambiar-color {
+    0% {
+      background-color: red;
+    }
+    50%{
+      background-color: blue;
+    }
+    100%{
+      background-color: green;
+    }
+  }
+
+  @keyframes mover-caja {
+    0% {
+      transform:translateX(0);    
+    }
+    50%{
+      transform: translateX(200px);
+      border-radius: 50px;
+    }
+    100%{
+      transform: translateX(0);
+      background-color: green;
+    }
+  }
