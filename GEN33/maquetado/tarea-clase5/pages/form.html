@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style2.css" />
+
+    <title>HTML documentacion</title>
+  </head>
+  <body>
+    <!-- seccion de enlaces -->
+    <section class="enlaces">
+      <ul>
+        <li class="listItem">
+          <a href="#hipervínculo">#1.hipervínculo</a>
+        </li>
+        <li class="listItem">
+          <a href="#artículo" class="linkItem">#2.artículo</a>
+        </li>
+        <li class="listItem">
+          <a href="#aparte">#3.aparte</a>
+        </li>
+        <li class="listItem">
+          <a href="#audio" class="linkItem">#4.audio</a>
+        </li>
+        <li class="listItem">
+          <a href="#negrita">#5.negrita</a>
+        </li>
+        <li class="listItem">
+          <a href="#cuerpo" class="linkItem">#6.cuerpo</a>
+        </li>
+        <li class="listItem">
+          <a href="#salto">#7.salto</a>
+        </li>
+        <li class="listItem">
+          <a href="#botón" class="linkItem">#8.botón</a>
+        </li>
+        <li class="listItem">
+          <a href="#código">#9.código</a>
+        </li>
+        <li class="listItem">
+          <a href="#diálogo" class="linkItem">#10.diálogo</a>
+        </li>
+        <li class="listItem">
+          <a href="#división">#11.división</a>
+        </li>
+        <li class="listItem">
+          <a href="#piedepágina" class="linkItem">#12.pie de página</a>
+        </li>
+        <li class="listItem">
+          <a href="#formulario">#13.formulario</a>
+        </li>
+        <li class="listItem">
+          <a href="#encabezados" class="linkItem">#14.encabezados</a>
+        </li>
+        <li class="listItem">
+          <a href="#ruptura" class="linkItem">#15.ruptura</a>
+        </li>
+      </ul>
+    </section>
+    <main class="docsContainer">
+      <!-- primer bloque de contenido -->
+      <section id="hipervínculo" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>hipervínculo</h3>
+
+          <p>
+            La &lt;a&gt; etiqueta define un hipervínculo, que se utiliza para
+            vincular de una página a otra.
+            <br />
+            El atributo más importante del &lt;a&gt;elemento es el href
+            atributo, que indica el destino del enlace.
+            <br />
+            De forma predeterminada, los enlaces aparecerán de la siguiente
+            manera en todos los navegadores:
+            <br />
+            Un enlace no visitado está subrayado y en azul. Un enlace visitado
+            está subrayado y en color violeta. Un enlace activo está subrayado y
+            en rojo.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;a&gt; href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt;</code>
+            
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="artículo" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">artículo</h3>
+          <p class="docItemDescription">
+            Un artículo debe tener sentido por sí solo y debe ser posible distribuirlo independientemente del resto del sitio.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;article&gt;
+                &lt;h2&gt;Google Chrome&lt;/h2&gt;
+                &lt;p&gt;oogle Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;
+                    &lt;/article&gt;</code>
+            
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="aparte" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>aparte</h3>
+          <p>
+            El contenido aparte debe estar indirectamente relacionado con el contenido circundante.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;aside&gt;
+                &lt;h4&gt;Epcot Center&lt;/h4&gt;
+                &lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;
+                    &lt;/aside&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="audio" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">audio</h3>
+          <p class="docItemDescription">
+            La &lt;audio&gt; etiqueta se utiliza para incrustar contenido sonoro en un documento, como música u otras transmisiones de audio.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;audio controls&gt; 
+                &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+                    Your browser does not support the audio tag.
+                    &lt;/audio&gt;</code>
+            
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="encabezados" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>encabezados</h3>
+
+          <p>
+            Las etiquetas &lt;h1&gt; to &lt;h6&gt; se utilizan para definir
+            encabezados HTML. <br />
+            <b> &lt;h1&gt; </b> Define el título más importante.
+            <br />
+            <b> &lt;h6&gt; </b>Define el encabezado menos importante.
+            <br />Nota: Utilice solo uno &lt;h1&gt; por página; este debe
+            representar el título/asunto principal de toda la página. Además, no
+            se salte los niveles de encabezado: comience con &lt;h1&gt;, luego
+            use &lt;h2&gt;, y así sucesivamente.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;h1&gt; encabezado &lt;/h1&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">parrafos</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="encabezados" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>Encabezados (h1 - h6)</h3>
+
+          <p>
+            Las etiquetas &lt;h1&gt; to &lt;h6&gt; se utilizan para definir
+            encabezados HTML. <br />
+            <b> &lt;h1&gt; </b> Define el título más importante.
+            <br />
+            <b> &lt;h6&gt; </b>Define el encabezado menos importante.
+            <br />Nota: Utilice solo uno &lt;h1&gt; por página; este debe
+            representar el título/asunto principal de toda la página. Además, no
+            se salte los niveles de encabezado: comience con &lt;h1&gt;, luego
+            use &lt;h2&gt;, y así sucesivamente.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;h1&gt; encabezado &lt;/h1&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">Parrafos (p)</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="encabezados" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>Encabezados (h1 - h6)</h3>
+
+          <p>
+            Las etiquetas &lt;h1&gt; to &lt;h6&gt; se utilizan para definir
+            encabezados HTML. <br />
+            <b> &lt;h1&gt; </b> Define el título más importante.
+            <br />
+            <b> &lt;h6&gt; </b>Define el encabezado menos importante.
+            <br />Nota: Utilice solo uno &lt;h1&gt; por página; este debe
+            representar el título/asunto principal de toda la página. Además, no
+            se salte los niveles de encabezado: comience con &lt;h1&gt;, luego
+            use &lt;h2&gt;, y así sucesivamente.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;h1&gt; encabezado &lt;/h1&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">Parrafos (p)</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="encabezados" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>Encabezados (h1 - h6)</h3>
+
+          <p>
+            Las etiquetas &lt;h1&gt; to &lt;h6&gt; se utilizan para definir
+            encabezados HTML. <br />
+            <b> &lt;h1&gt; </b> Define el título más importante.
+            <br />
+            <b> &lt;h6&gt; </b>Define el encabezado menos importante.
+            <br />Nota: Utilice solo uno &lt;h1&gt; por página; este debe
+            representar el título/asunto principal de toda la página. Además, no
+            se salte los niveles de encabezado: comience con &lt;h1&gt;, luego
+            use &lt;h2&gt;, y así sucesivamente.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;h1&gt; encabezado &lt;/h1&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">Parrafos (p)</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <section id="encabezados" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3>Encabezados (h1 - h6)</h3>
+
+          <p>
+            Las etiquetas &lt;h1&gt; to &lt;h6&gt; se utilizan para definir
+            encabezados HTML. <br />
+            <b> &lt;h1&gt; </b> Define el título más importante.
+            <br />
+            <b> &lt;h6&gt; </b>Define el encabezado menos importante.
+            <br />Nota: Utilice solo uno &lt;h1&gt; por página; este debe
+            representar el título/asunto principal de toda la página. Además, no
+            se salte los niveles de encabezado: comience con &lt;h1&gt;, luego
+            use &lt;h2&gt;, y así sucesivamente.
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;h1&gt; encabezado &lt;/h1&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el primer bloque -->
+
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">Parrafos (p)</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+      <!-- segundo bloque de contenido -->
+      <section id="parrafos" class="bloqueDocumentacion">
+        <article class="docItem">
+          <h3 class="docItemTitle">Parrafos (p)</h3>
+          <p class="docItemDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt
+            cupiditate quod exercitationem explicabo? Quibusdam eum odio
+            voluptates praesentium aperiam temporibus aspernatur doloremque
+            dicta molestiae vel omnis, excepturi quas in!
+          </p>
+          <p>Ejemplo de uso</p>
+          <div class="codeExampleContainer">
+            <code class="codeExample">&lt;p&gt; parrafo &lt;/p&gt;</code>
+          </div>
+        </article>
+      </section>
+      <!-- aqui termina el segundo bloque -->
+    </main>
+  </body>
+</html>

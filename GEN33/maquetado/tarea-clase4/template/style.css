@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+aside{
+    background-color: rosybrown;
+    padding: 20px;
+    width: 180px;
+    height: 192px;
+    float: left;
+    text-align: center;
+}
+
+article{
+    margin-left: 220px;
+    padding: 20px;
+    background-color: orange;
+    height: 192px;
+}
+
+article div{
+    width: 100px;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+.caja1{
+    position:absolute;
+    left: 798px;
+    top: 225px;
+}
+
+.caja2{
+    position:absolute;
+    left: 520px;
+    top: 225px;
+}
+
+.caja3{
+    position:absolute;
+    left: 240px;
+    top: 225px;
+}
+span{
+    top: 190px;
+    position: absolute;
+    left: 570px;
+}
+

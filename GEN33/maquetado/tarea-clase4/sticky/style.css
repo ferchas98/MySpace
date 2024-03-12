@@ -1,0 +1,14 @@
+.container{
+    height: 800px;
+    overflow: auto;
+    background-color: #f4f4f4;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: grey;
+    color: blue;
+    padding: 10px 0;
+    border-bottom: 1ps solid #000;
+}
