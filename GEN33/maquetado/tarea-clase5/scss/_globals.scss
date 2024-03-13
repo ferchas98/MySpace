@@ -1,0 +1,16 @@
+
+
+@mixin margenes ($margin-bottom,$margin-top,$margin-left,$margin-right){
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+  }
+
+@mixin margins ($margin){
+  margin: $margin;
+}
+
+@mixin paddings ($padding){
+  padding: $padding;
+}

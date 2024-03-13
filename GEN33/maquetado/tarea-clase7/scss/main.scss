@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tarjeta{
+   padding: 150px;
+}
+
+body{
+    background-color:  rgb(213, 227, 231);
+}
+
+.container{
+    width: 600px;
+    height: 254px;
+    border: 2px solid rgb(210, 231, 243);
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.logo1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 0 0 20px;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.text2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 20px;
+    font-family: "Manrope", sans-serif;
+}
+
+.text{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 20px;
+    font-family: "Manrope", sans-serif;
+}
+
+.text3{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+}
+
+.text4{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "Manrope", sans-serif;
+}
+
+.foto{
+    display: flex;
+}
+.datos{
+display: flex;
+margin-left: 20px;
+flex-direction: column;
+margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        background-color: white;
+    }
+    .logo{
+        width: 346px;
+        height: 180px;
+    }
+
+  }

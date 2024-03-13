@@ -1,22 +1,20 @@
+
 * {
-  margin: 0;
-  padding: 0;
+  @include margins(0);
+  @include paddings(0);
 }
 
 .enlaces {
   background-color: #d1d1d1;
-  padding: 8px;
+  @include paddings(8px);
   border-radius: 8px;
   width: 600px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  @include margenes(20px, 20px, 0, 0);
 }
 
 .enlaces li {
   list-style: none;
-  padding: 4px;
+  @include paddings(4px);
 }
 
 .enlaces a {
@@ -30,16 +28,16 @@
 .docsContainer {
   width: 600px;
   margin-left: auto;
-  margin-right: auto;
+  @include margenes(0, 0, auto, auto);
 }
 
 .bloqueDocumentacion {
-  margin-top: 8px;
+  @include margenes(0, 8px, 0, 0);
 }
 
 .docItem {
   background-color: #d3d3d3;
-  padding: 8px;
+  @include paddings(8px);
   border-radius: 8px;
   border: 1px solid #d1d1d1;
 }
@@ -47,16 +45,16 @@
 .docItemTitle,
 .docItemDescription,
 .codeExampleContainer {
-  margin: 8px;
+  @include margins(8px);
 }
 
 .codeExample {
   background-color: #000;
   height: 25px;
   color: #72ff72;
-  padding: 8px;
+  @include paddings(8px);
   border-radius: 8px;
-  margin: 8px;
+  @include margins(8px);
 }
 
 .docItem p:nth-child(2) {
@@ -64,6 +62,5 @@
 }
 
 .docItem h3 {
-  margin: 8px;
+  @include margins(8px);
 }
-     
