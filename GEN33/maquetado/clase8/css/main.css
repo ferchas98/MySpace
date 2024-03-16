@@ -1,0 +1,134 @@
+.micontainer {
+  background-color: black;
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 40px;
+}
+
+.miRow .col1 .icon {
+  margin-left: 240px;
+}
+
+.miRow .col2 .icon {
+  margin-left: 240px;
+}
+
+.miRow2 .col3 .icon {
+  margin-left: 210px;
+}
+
+.miRow2 .col5 .icon {
+  margin-left: 210px;
+}
+
+.miRow2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.miRow .col1 {
+  border-top: 5px solid rgb(141, 191, 208);
+  border-bottom: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.miRow .col2 {
+  border-top: 5px solid rgb(141, 191, 208);
+  border-bottom: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.miRow2 .col3 {
+  border-top: 5px solid red;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.miRow .col7 {
+  border: 1px solid black;
+  background-color: rosybrown;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.miRow2 .col5 {
+  border-top: 5px solid rgb(237, 216, 24);
+  border-bottom: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 10px;
+  height: 150px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .miRow .col1 {
+    margin-bottom: 25px;
+    height: 250px;
+    font-size: 25px;
+  }
+  .miRow .col2 {
+    margin-bottom: 25px;
+    height: 250px;
+    font-size: 25px;
+  }
+  .miRow .col3 {
+    margin-bottom: 25px;
+    height: 250px;
+    font-size: 25px;
+  }
+  .miRow2 .col5 {
+    margin-bottom: -90px;
+    height: 250px;
+    font-size: 25px;
+  }
+  .miRow .col1 .icon {
+    margin-left: 340px;
+  }
+  .miRow .col2 .icon {
+    margin-left: 340px;
+  }
+  .miRow2 .col3 .icon {
+    margin-left: 340px;
+  }
+  .miRow2 .col5 .icon {
+    margin-left: 340px;
+  }
+  img {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .miRow .col1 {
+    font-size: 13px;
+    padding: 13px;
+  }
+  .miRow2 .col3 {
+    font-size: 13px;
+    padding: 13px;
+  }
+  .miRow2 .col5 {
+    font-size: 13px;
+    padding: 13px;
+    margin-top: 20px;
+  }
+  .miRow .col2 {
+    font-size: 13px;
+    padding: 13px;
+  }
+}/*# sourceMappingURL=main.css.map */
